@@ -26,7 +26,7 @@ div.className = 'row';
 
 div.innerHTML = '<div style="font-size: 30px;"> You can leave at ' 
     + now.format("hh:mm:SS A") 
-    + ' (' + dur.hours() + ' h and ' + dur.minutes() + ' m ) ' 
+    + ' (' + dur.hours() + ' h and ' + dur.minutes() + ' m) ' 
     + ' <div>';
 
 var ele = document.getElementsByClassName('footerInner')[0];
